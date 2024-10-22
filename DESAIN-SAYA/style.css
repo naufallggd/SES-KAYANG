@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #2600ff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.desain-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.desain-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.desain-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.order-btn {
+    background-color: #2b00ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.order-btn:hover {
+    background-color: #0026ff;
+}
+
+#total-harga {
+    font-size: 1.2em;
+    margin: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.confirm-popup {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 2px solid #000dff;
+    padding: 20px;
+    z-index: 1000;
+    text-align: center;
+    display: none;
+}
+
+.confirm-popup button {
+    margin-top: 10px;
+}
